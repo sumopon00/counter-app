@@ -2,6 +2,7 @@
       text-align: center;
       padding: 20px;
       border: 2px solid #000;
+      margin: 15px 0;
 }
 .counter-number {
       font-size: 50px;
@@ -16,11 +17,13 @@
       font-weight: bold;
       cursor: pointer;
       border-radius: 5px;
-      margin: 0 5px;
+      margin: 10px 10px;
 }
 .button:hover {
       opacity: 0.8;
       transition: opacity .25s;
 }
-/* .button {}
-#js-reset-button {} */
+#js-addCounter-button {
+      background-color: #666;
+}
+/* #js-reset-button {} */
